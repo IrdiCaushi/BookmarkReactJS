@@ -1,5 +1,4 @@
-import React, { Component, Fragment, useState } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React, { Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './index.css';
@@ -12,7 +11,6 @@ import Cards from './components/Cards';
 const App = () => {
 
     return (
-      <Router>
           <Fragment>
 
               <nav className="navigation">
@@ -29,7 +27,6 @@ const App = () => {
                   </div>
               </main>
           </Fragment>
-      </Router>
     );
 }
 
